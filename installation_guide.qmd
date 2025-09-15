@@ -1,0 +1,286 @@
+---
+title: "Guía de instalación"
+subtitle: "Colaboración en proyectos"
+author: "Sigma Data Club"
+date: "2025-09-13"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    theme: cosmo
+    code-copy: true
+    df-print: default
+    self-contained: true
+lang: es
+filters:
+  - quarto
+---
+
+<style>
+ol {
+  list-style: none;
+  counter-reset: item;
+  padding-left: 0;
+}
+
+ol > li {
+  counter-increment: item;
+  margin: 1em 0;
+  position: relative;
+  padding-left: 3em;
+}
+
+ol > li::before {
+  content: counter(item);
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #5389dfff;
+  color: white;
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  line-height: 2em;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 0.9em;
+}
+</style>
+
+::: {.callout-important}
+Esta guía está diseñada para ayudarte a configurar tu entorno de desarrollo para trabajar en proyectos de ciencia de datos. En ningún caso esta guía sustituye a la documentación oficial de las herramientas que aquí se mencionan. Te animamos a leer, ojear, cotillear, revisar o investigar (llámalo como quieras) la documentación oficial de cada herramienta. Estas, no son ni las únicas ni las mejores para todos los casos (pero son las que nosotros usamos y recomendamos). Por ello, te animamos a explorar otras opciones y a elegir las que mejor se adapten a tus necesidades y preferencias.
+:::
+
+## Git
+
+**Git** es un sistema de control de versiones distribuido que nos permitirá gestionar y rastrear los cambios en nuestro código fuente a lo largo del tiempo. Es una herramienta **esencial** para el desarrollo colaborativo.
+
+::: {.panel-tabset}
+
+## Windows
+
+Descarga el [instalador de Git para Windows](https://git-scm.com/download/win) e instálalo. 
+
+Podrás instalarlo con las opciones por defecto (haciendo click en `Next`/`Siguiente` hasta que finalice la instalación).
+
+Una vez instalado, abre una terminal (cmd, PowerShell o Git Bash) y ejecuta:
+
+```bash
+git --version
+```
+Deberías ver algo como `git version 2.x.x`. En mi caso por ejemplo, `git version 2.51.0`.
+
+::: {.callout-note}
+Si tienes **Windows 10/11** y usas [WSL](https://learn.microsoft.com/es-es/windows/wsl/) (Windows Subsystem for Linux), puedes instalar Git dentro de tu distribución Linux (basada en Debian, es decir Ubuntu, por ejemplo).
+:::
+
+## macOS
+**Opción recomendada:**
+
+```bash
+brew install git
+```
+Una vez instalado ejecuta:
+
+```bash
+git --version
+```
+Deberías ver algo como `git version 2.x.x`. En mi caso por ejemplo, `git version 2.51.0`.
+
+::: {.callout-tip}
+Si no tienes Homebrew consulta https://brew.sh para instalarlo.
+
+Aunque bastará con escribir el siguiente comando:
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+:::
+
+**Alternativas:** 
+
+Si teneis instalado Xcode, Git ya viene incluido. Si no, puedes instalar las herramientas de línea de comandos de Xcode con: 
+
+```bash
+xcode-select --install
+git --version
+```
+
+## Linux
+
+Abre una terminal y usa el gestor de paquetes de tu distribución para instalar Git.
+
+Para distribuciones basadas en Debian/Ubuntu:
+
+```bash
+sudo apt update
+sudo apt install git
+```
+Para distribuciones basadas en Fedora/RHEL:
+
+```bash
+sudo dnf install git
+```
+Para distribuciones basadas en Arch Linux:
+
+```bash
+sudo pacman -S git
+```
+Tras la instalación, ejecuta `git --version` para verificar que Git se ha instalado correctamente. Deberías ver algo como `git version 2.x.x`. En mi caso por ejemplo, `git version 2.51.0`.
+
+::: {.callout-note}
+Si tienes WSL (Windows Subsystem for Linux), puedes instalar Git dentro de tu distribución Linux. Abre la terminal de WSL y repite los pasos anteriores según tu distribución.
+:::
+:::
+
+## Github
+
+**Github** es una plataforma de desarrollo colaborativo que utiliza Git para el control de versiones. Permite a los desarrolladores alojar y revisar código, gestionar proyectos y colaborar con otros desarrolladores en todo el mundo. Nosotros usaremos GitHub para alojar nuestros proyectos y colaborar en ellos de manera eficiente. Estos son los pasos recomendados para configurar tu cuenta y entorno de trabajo en GitHub:
+
+::: {.callout-tip}
+La documentación oficial de Github es excelente, te animamos a cotillearla: [Documentación oficial de GitHub](https://docs.github.com/es)
+:::
+
+1. [Creación de una cuenta en GitHub](https://docs.github.com/es/get-started/start-your-journey/creating-an-account-on-github): Crea una cuenta personal para comenzar a trabajar con GitHub.
+
+
+2. [Comprobar tus claves SSH existentes](https://docs.github.com/es/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys): Antes de generar una nueva clave SSH, debes comprobar la máquina local en busca de claves existentes.
+
+
+3. [Generación de una nueva clave SSH y adición al agente SSH](https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent): Una vez que has comprobado las claves SSH existentes, puedes generar una nueva clave SSH para usarla para la autenticación y luego agregarla al ssh-agent.
+
+4. [Agregar una clave SSH nueva a tu cuenta de GitHub](https://docs.github.com/es/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account): Para configurar tu cuenta en GitHub.com a fin de utilizar tu clave SSH nueva (o existente), también necesitarás agregar la clave a tu cuenta.
+
+5. ::: {.callout-note}
+Debajo de los desplegables (tabs) de Windows, macOS y Linux hay otros en los que puedes elegir entre `GitHub CLI` o `Web Browser`. **Opción recomendada**: `Web Browser`.
+:::
+
+6. [Probar tu conexión SSH](https://docs.github.com/es/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection): Después de configurar la clave SSH y agregarla a GitHub.com, puede probar la conexión.
+
+7. [Trabajar con contraseñas de clave SSH](https://docs.github.com/es/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases) (**recomendado**): Con las claves SSH, si alguien obtiene acceso a tu equipo, el atacante también tiene acceso a cada sistema que usa esa clave. Para agregar una capa extra de seguridad, puedes incluir una contraseña a tu clave SSH.
+
+
+8. ::: {.callout-important}
+Una vez que hayas configurado Git y GitHub, es recomendable configurar tu información de usuario global para que tus commits estén correctamente identificados.
+:::
+
+9. [Configurar tu nombre de usuario en Git](https://docs.github.com/es/get-started/git-basics/setting-your-username-in-git): Git utiliza un nombre de usuario para asociar las confirmaciones con una identidad. El nombre de usuario de Git no es tu mismo nombre de usuario de GitHub.
+
+10. [Configurar tu dirección de correo electrónico de confirmación](https://docs.github.com/es/account-and-profile/how-tos/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address): Puede establecer la dirección de correo electrónico que se usa para crear confirmaciones en GitHub y en su equipo.
+
+11. ::: {.callout-tip}
+[Envío de solicitud a GitHub Education](https://docs.github.com/es/education/about-github-education/github-education-for-students/apply-to-github-education-as-a-student) (recomendado): Como estudiantes nos podemos beneficiar de herramientas de desarrollo y recursos gratuitos a través del [GitHub Student Developer Pack](https://education.github.com/pack).
+:::
+
+## UV 
+
+[UV](https://docs.astral.sh/uv/) es una herramienta de línea de comandos que facilita la gestión de **entornos virtuales** y **dependencias** para proyectos de Python. Es extremadamente rápido y ligero. Para gran parte de nuestros proyectos de ciencia de datos bastará.
+
+::: {.callout-note}
+**Nota sobre anaconda/miniconda**: También es apropiado para gestionar entornos virtuales y dependecias, aunque es más pesado y lento que `uv`. No obstante, conda puede manejar dependencias complejas que actualmente `uv` no puede resolver.
+:::
+
+::: {.callout-tip}
+La documentación oficial de `UV` es bastante buena, te animamos a leerla: [Documentación oficial de UV](https://docs.astral.sh/uv/)
+:::
+
+**UV** ofrece un instalador independiente para descargar e instalar:
+
+::: {.panel-tabset}
+
+## Windows
+Usa irm para descargar el script y ejecútalo con `iex`:
+
+```powershell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+::: {.callout-tip}
+El script de instalación puede inspeccionarse antes de usarlo (por seguridad):
+
+```powershell
+powershell -c "irm https://astral.sh/uv/install.ps1 | more"
+```
+:::
+
+::: {.callout-note}
+Hay más opciones de instalación, consulta la [documentación oficial](https://docs.astral.sh/uv/getting-started/installation).
+:::
+
+Para comprobar que se ha instalado correctamente, abre una nueva terminal (cmd o PowerShell) y ejecuta:
+
+```powershell
+uv --version
+```
+Deberías ver algo como `uv version 0.x.x`. En mi caso por ejemplo, `uv version 0.7.12`, debería de actualizarlo :(
+
+::: {.callout-note}
+Si tienes **Windows 10/11** y usas [WSL](https://learn.microsoft.com/es-es/windows/wsl/) (Windows Subsystem for Linux), puedes instalar uv dentro de tu distribución Linux (basada en Debian, es decir Ubuntu, por ejemplo).
+:::
+
+## macOS/Linux
+
+Usa `curl` para descargar el script y ejecutarlo con `sh`:
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+Si tu sistema no tiene curl, puedes usar wget:
+
+```bash
+wget -qO- https://astral.sh/uv/install.sh | sh
+```
+
+::: {.callout-tip}
+El script de instalación puede inspeccionarse antes de usarlo (por seguridad):
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | less
+```
+:::
+
+::: {.callout-note}
+Hay más opciones de instalación, consulta la [documentación oficial](https://docs.astral.sh/uv/getting-started/installation).
+:::
+
+Para comprobar que se ha instalado correctamente, abre una nueva terminal y ejecuta:
+
+```bash
+uv --version
+```
+
+Deberías ver algo como `uv version 0.x.x`. En mi caso por ejemplo, `uv version 0.7.12`, debería de actualizarlo :(
+:::
+
+## Visual Studio Code (VSCode)
+
+**Visual Studio Code** es un editor de código desarrolado por Microsoft, **gratuito** y de **código abierto**. Es muy popular entre los desarrolladores por su versatilidad, facilidad de uso y amplia gama de extensiones que permiten personalizar el entorno de desarrollo según las necesidades del usuario.
+
+::: {.callout-note}
+Aunque recomendemos **Visual Studio Code**, puedes usar cualquier editor de texto o IDE (Entorno de Desarrollo Integrado) que desees. Te animamos a explorar otras opciones como [PyCharm](https://www.jetbrains.com/pycharm/) (los estudiantes no necesitan pagar la suscripción), [Sublime Text](https://www.sublimetext.com/), [Spyder](https://www.spyder-ide.org/), [Zed](https://zed.dev/), [Neovim](https://neovim.io/) o alguno de los **forks** de VSCode como [Windsurf](https://windsurf.com/editor) o [Cursor](https://www.cursor.so/).
+:::
+
+1. Descarga e instala [Visual Studio Code](https://code.visualstudio.com/). Elige el instalador adecuado para tu sistema operativo (Windows, macOS o Linux).
+
+2. Abre Visual Studio Code y ve a la pestaña de extensiones (icono de cuadrado en la barra lateral izquierda).
+
+3. Instala la extensión de python buscando "Python" en la barra de búsqueda y seleccionando la **extensión oficial de Microsoft**. Haz clic en `Instalar`.
+
+4. **Recomendado**: Instala la extensión de Github Copilot buscando "GitHub Copilot" en la barra de búsqueda y seleccionando la **extensión oficial de GitHub**. Haz clic en `Instalar`.
+
+5. ::: {.callout-note}
+Estas son únicamente algunas extensiones recomendadas. Puedes explorar e instalar otras extensiones según tus necesidades y preferencias.
+:::
+
+6. ::: {.callout-caution}
+Antes de instalar cualquier extensión comprueba que es la oficial (desarrollada por Microsoft, GitHub u otra fuente confiable) o que el autor parece fiable. Si ves dos extensiones con el mismo nombre, revísalas bien, una puede contener código malicioso.
+:::
+
+## Recursos para aprender
+
+::: {.callout-important}
+A continuación, se presentan algunos recursos recomendados para aprender a usar las herramientas mencionadas en esta guía. Insistimos en que la documentación oficial de cada herramienta es la mejor fuente de información y te animamos a consultarla regularmente. No obstante, en internet hay muchos y buenos recursos que pueden ayudarte a aprender. **Importantísimo**: NO sirve de nada ver un tutorial de 5 horas o leer un libro de 500 páginas si no incorporas en tu flujo de trabajo diario estas herramientas. Se aprende por el camino, NO puedes saberlo todo antes de empezar.
+:::
+
+- Citamos recursos
