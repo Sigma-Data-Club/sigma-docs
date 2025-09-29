@@ -261,7 +261,7 @@ Explora nuestras guías detalladas y descubre todos los recursos gratuitos dispo
 
 - **[Guía de Instalación](installation_guide.qmd)** - Configura tu entorno de desarrollo
 - **[Recursos para Estudiantes](student_resources.qmd)** - Herramientas y servicios gratuitos
-- **[Sigma Data Club](https://github.com/sigma-dc)** - Nuestro club en GitHub
+- **[Sigma Data Club](https://github.com/Sigma-Data-Club)** - Nuestro club en GitHub
 
 ---
 
