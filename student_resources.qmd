@@ -1,0 +1,284 @@
+---
+title: "Recursos gratuitos para estudiantes"
+subtitle: "Herramientas y servicios educativos"
+author: "Sigma Data Club"
+date: "2025-09-29"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    theme: cosmo
+    code-copy: true
+    df-print: default
+    self-contained: true
+lang: es
+filters:
+  - quarto
+---
+
+<style>
+ol {
+  list-style: none;
+  counter-reset: item;
+  padding-left: 0;
+}
+
+ol > li {
+  counter-increment: item;
+  margin: 1em 0;
+  position: relative;
+  padding-left: 3em;
+}
+
+ol > li::before {
+  content: counter(item);
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #5389dfff;
+  color: white;
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  line-height: 2em;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 0.9em;
+}
+</style>
+
+::: {.callout-important}
+Esta guía recopila recursos gratuitos disponibles para estudiantes de programación y ciencia de datos. Muchos de estos recursos requieren verificar tu condición de estudiante a través de plataformas como GitHub Education, JetBrains Education, o Student Beans. Asegúrate de tener tu credencial estudiantil o documento que acredite tu condición de estudiante actualizado.
+:::
+
+## GitHub Student Developer Pack
+
+El **GitHub Student Developer Pack** es una colección de herramientas gratuitas para estudiantes verificados a través de [GitHub Education](https://education.github.com). Incluye acceso a herramientas premium que normalmente son de pago.
+
+### Cómo obtenerlo
+
+1. [Verificar tu condición de estudiante](https://education.github.com/discount_requests/student_application) en GitHub Education
+2. Una vez aprobado, tendrás acceso automático al pack completo
+
+::: {.callout-tip}
+**Explora las experiencias específicas**: Para estudiantes de ciencia de datos, GitHub ofrece experiencias curadas en [GitHub Education Experiences - ML/DS](https://education.github.com/experiences/ml_ds) con herramientas especializadas.
+:::
+
+### Herramientas destacadas para ciencia de datos
+
+#### GitHub Copilot
+- **Asistente de programación con IA** desarrollado por GitHub y OpenAI
+- **Uso gratuito**: Acceso completo durante tu período como estudiante
+- **Características**:
+  - Autocompletado inteligente de código
+  - Generación de funciones y clases
+  - Explicación de código complejo
+  - Soporte para múltiples lenguajes de programación
+
+::: {.callout-tip}
+GitHub Copilot es especialmente útil para estudiantes de ciencia de datos ya que puede generar código Python, R, SQL y otros lenguajes comúnmente usados en análisis de datos.
+:::
+
+#### GitHub Codespaces
+- **Entornos de desarrollo en la nube** completamente configurados
+- **Características**:
+  - Configuración instantánea para proyectos de ciencia de datos
+  - Integración completa con GitHub
+  - Colaboración en tiempo real
+  - Preinstalación de herramientas comunes de data science
+
+#### Herramientas especializadas para ciencia de datos
+- **DataCamp**: Plataforma de aprendizaje para ciencia de datos
+- **Deepnote**: Notebooks colaborativos para análisis de datos
+- **SQLGate**: Herramienta avanzada para bases de datos
+
+::: {.callout-note}
+**Para ver todas las herramientas disponibles**: Consulta el [GitHub Student Developer Pack completo](https://education.github.com/pack) para descubrir todas las herramientas incluidas.
+:::
+
+## JetBrains Student License
+
+**JetBrains** ofrece licencias gratuitas para estudiantes de todas sus herramientas de desarrollo a través del [JetBrains Student License Program](https://www.jetbrains.com/community/education/#students).
+
+### Cómo obtenerla
+
+1. Regístrate en el [portal de JetBrains Education](https://www.jetbrains.com/community/education/#students)
+2. Verifica tu condición de estudiante con tu email académico o credencial
+3. Una vez aprobado, descarga cualquier IDE de JetBrains de forma gratuita
+
+### IDEs incluidos
+
+#### PyCharm Professional
+- **IDE especializado para Python** con características avanzadas
+- **Características destacadas**:
+  - Análisis de código avanzado
+  - Soporte completo para ciencia de datos (pandas, numpy, matplotlib, etc.)
+  - Integración con Jupyter Notebooks
+  - Herramientas de testing integradas
+  - Control de versiones integrado
+
+::: {.callout-note}
+PyCharm Professional es especialmente valioso para estudiantes de ciencia de datos debido a su excelente soporte para bibliotecas de análisis de datos y machine learning.
+:::
+
+#### DataGrip
+- **IDE especializado para bases de datos**
+- **Soporte para**:
+  - MySQL, PostgreSQL, MongoDB, Redis
+  - SQLite, Oracle, SQL Server
+  - Completado inteligente de SQL
+  - Análisis de esquemas de datos
+  - Refactorización de SQL
+  - Navegación inteligente entre tablas y procedimientos
+
+::: {.callout-tip}
+DataGrip es esencial para estudiantes de ciencia de datos que trabajan con múltiples bases de datos y necesitan herramientas avanzadas de análisis y manipulación de datos.
+:::
+
+#### DataSpell
+- **IDE especializado para ciencia de datos y análisis**
+- **Características específicas**:
+  - Soporte nativo para Jupyter Notebooks
+  - Integración completa con bibliotecas de ciencia de datos
+  - Visualización interactiva de datos
+  - Herramientas de machine learning integradas
+  - Soporte para R y Python en el mismo entorno
+
+::: {.callout-important}
+DataSpell está diseñado específicamente para científicos de datos y ofrece una experiencia optimizada para el análisis exploratorio y la creación de modelos de machine learning.
+:::
+
+::: {.callout-tip}
+**Combinación recomendada para ciencia de datos**:
+- Usa **PyCharm** para desarrollo de código Python y machine learning
+- Emplea **DataSpell** para análisis interactivo y notebooks
+- Utiliza **DataGrip** para gestión y consulta de bases de datos
+:::
+
+#### Otros IDEs disponibles
+- **IntelliJ IDEA Ultimate**: Para desarrollo Java y aplicaciones enterprise
+- **WebStorm**: Para desarrollo web moderno
+- **CLion**: Para desarrollo en C/C++
+
+## Microsoft Azure for Students
+
+**Microsoft Azure** ofrece [créditos gratuitos para estudiantes](https://azure.microsoft.com/es-es/free/students/) a través del programa Azure for Students.
+
+### Beneficios
+- **Crédito de $100 USD** para usar en servicios Azure
+- **Acceso gratuito** a más de 25 servicios populares
+- **Sin necesidad de tarjeta de crédito** para empezar
+
+### Servicios destacados para ciencia de datos
+- **Azure Machine Learning**: Plataforma para ML
+- **Azure Databricks**: Para big data analytics
+- **Azure Cognitive Services**: APIs de IA
+- **Azure SQL Database**: Base de datos gestionada
+- **Azure Storage**: Almacenamiento en la nube
+
+## Google Cloud for Students
+
+**Google Cloud** ofrece el [Google Cloud Education Program](https://cloud.google.com/edu) con créditos gratuitos para estudiantes.
+
+### Beneficios
+- **Créditos gratuitos** para usar en Google Cloud Platform
+- **Acceso a todos los servicios** de GCP
+- **Soporte técnico gratuito**
+
+### Servicios útiles
+- **Google Colab**: Notebooks Jupyter gratuitos con GPUs
+- **BigQuery**: Análisis de big data
+- **Cloud Storage**: Almacenamiento en la nube
+- **AI Platform**: Machine Learning
+- **Cloud Functions**: Serverless computing
+
+## O'Reilly Learning Platform
+
+**O'Reilly** ofrece una de las plataformas de aprendizaje más completas para tecnología y programación a través de su [O'Reilly for Higher Education](https://www.oreilly.com/academic/) y servicios de biblioteca académica.
+
+### Acceso a través de instituciones
+
+Muchos universidades y centros educativos tienen **acceso gratuito** a la plataforma O'Reilly para sus estudiantes y profesores. Consulta con tu biblioteca universitaria si tienes acceso institucional.
+
+::: {.callout-tip}
+**Ejemplo en España**: La [Universitat Politècnica de València (UPV)](https://upv-es.libguides.com/o-reilly) ofrece acceso completo a O'Reilly for Higher Education para sus estudiantes y faculty.
+:::
+
+### Recursos disponibles
+
+#### Biblioteca digital completa
+- **Más de 40,000 libros electrónicos** sobre tecnología y programación
+- **Videos de capacitación** con expertos de la industria
+- **Rutas de aprendizaje** estructuradas por temas y niveles
+- **Conferencias y eventos virtuales** en directo y bajo demanda
+
+#### Contenido especializado para ciencia de datos
+- **Libros sobre Python, R, machine learning**
+- **Tutoriales de pandas, numpy, scikit-learn**
+- **Cursos de SQL y bases de datos**
+- **Contenido sobre big data y analytics**
+- **Certificaciones y exámenes de práctica**
+
+### Cómo acceder
+
+1. **Verifica con tu institución**: Consulta con tu biblioteca universitaria si tienen suscripción
+2. **Acceso directo**: Si tu universidad tiene convenio, usa tu email académico (.edu, .ac.es, etc.)
+3. **Prueba gratuita**: O'Reilly ofrece pruebas gratuitas para instituciones
+
+::: {.callout-note}
+**Para estudiantes españoles**: Muchas universidades españolas tienen acuerdos con O'Reilly. Consulta con tu biblioteca o departamento de informática para obtener acceso gratuito.
+:::
+
+## Consejos para aprovechar estos recursos
+
+::: {.callout-tip}
+**Empieza por lo esencial**: Prioriza las herramientas que usarás inmediatamente en tus proyectos y estudios. No necesitas instalar todo de una vez.
+:::
+
+::: {.callout-important}
+**Mantén tus licencias actualizadas**: La mayoría de estos programas requieren verificar anualmente tu condición de estudiante. Marca en tu calendario las fechas de renovación.
+:::
+
+::: {.callout-note}
+**Combina herramientas**: Muchas de estas herramientas funcionan mejor juntas. Por ejemplo, usa GitHub Copilot en VSCode con una licencia de estudiante de JetBrains.
+:::
+
+::: {.callout-warning}
+**Usa responsablemente**: Estos recursos están destinados para fines educativos. Revisa los términos de uso de cada plataforma para asegurarte de cumplir con sus políticas.
+:::
+
+## Recursos educativos adicionales
+
+### Plataformas de aprendizaje
+- **[freeCodeCamp](https://www.freecodecamp.org/)**: Cursos gratuitos de programación web
+- **[Coursera for Campus](https://www.coursera.org/campus/)**: Acceso gratuito a cursos para estudiantes
+- **[edX for Business](https://business.edx.org/edx-for-business)**: Cursos gratuitos de universidades top
+- **[Khan Academy](https://www.khanacademy.org/)**: Cursos gratuitos de matemáticas y programación
+
+### Herramientas de desarrollo
+- **[Visual Studio Code](https://code.visualstudio.com/)**: Editor de código gratuito y extensible
+- **[Git](https://git-scm.com/)**: Sistema de control de versiones gratuito
+- **[Python](https://www.python.org/)**: Lenguaje de programación gratuito
+- **[R](https://www.r-project.org/)**: Lenguaje estadístico gratuito
+- **[Anaconda](https://www.anaconda.com/)**: Distribución Python/R gratuita para ciencia de datos
+
+### Recursos específicos para ciencia de datos
+- **[Kaggle Learn](https://www.kaggle.com/learn)**: Cursos gratuitos de machine learning
+- **[DataCamp Community](https://www.datacamp.com/community)**: Recursos gratuitos para ciencia de datos
+- **[Towards Data Science](https://towardsdatascience.com/)**: Artículos y tutoriales gratuitos
+- **[Papers with Code](https://paperswithcode.com/)**: Papers académicos con código implementado
+
+### Comunidades de aprendizaje y soporte
+Únete a comunidades de estudiantes y desarrolladores para compartir recursos y obtener ayuda:
+
+- **[Dev.to](https://dev.to/)**: Comunidad de desarrolladores
+- **[Stack Overflow](https://stackoverflow.com/)**: Preguntas y respuestas de programación
+- **[Reddit r/learnprogramming](https://www.reddit.com/r/learnprogramming/)**: Comunidad de aprendizaje
+- **[Reddit r/datascience](https://www.reddit.com/r/datascience/)**: Comunidad de ciencia de datos
+- **[GitHub Community](https://github.community/)**: Foro oficial de GitHub
+
+::: {.callout-tip}
+**Contribuye a la comunidad**: Una vez que domines estas herramientas, considera contribuir a proyectos open source o ayudar a otros estudiantes en foros y comunidades.
+:::
