@@ -1,0 +1,142 @@
+[
+  {
+    "objectID": "student_resources.html",
+    "href": "student_resources.html",
+    "title": "Recursos gratuitos para estudiantes",
+    "section": "",
+    "text": "Importante\n\n\n\nEsta guía recopila recursos gratuitos disponibles para estudiantes de programación y ciencia de datos. Muchos de estos recursos requieren verificar tu condición de estudiante a través de plataformas como GitHub Education, JetBrains Education, o Student Beans. Asegúrate de tener tu credencial estudiantil o documento que acredite tu condición de estudiante actualizado."
+  },
+  {
+    "objectID": "student_resources.html#github-student-developer-pack",
+    "href": "student_resources.html#github-student-developer-pack",
+    "title": "Recursos gratuitos para estudiantes",
+    "section": "1 GitHub Student Developer Pack",
+    "text": "1 GitHub Student Developer Pack\nEl GitHub Student Developer Pack es una colección de herramientas gratuitas para estudiantes verificados a través de GitHub Education. Incluye acceso a herramientas premium que normalmente son de pago.\n\n1.1 Cómo obtenerlo\n\nVerificar tu condición de estudiante en GitHub Education\nUna vez aprobado, tendrás acceso automático al pack completo\n\n\n\n\n\n\n\nTip\n\n\n\nExplora las experiencias específicas: Para estudiantes de ciencia de datos, GitHub ofrece experiencias curadas en GitHub Education Experiences - ML/DS con herramientas especializadas.\n\n\n\n\n1.2 Herramientas destacadas para ciencia de datos\n\n1.2.1 GitHub Copilot\n\nAsistente de programación con IA desarrollado por GitHub y OpenAI\nUso gratuito: Acceso completo durante tu período como estudiante\nCaracterísticas:\n\nAutocompletado inteligente de código\nGeneración de funciones y clases\nExplicación de código complejo\nSoporte para múltiples lenguajes de programación\n\n\n\n\n\n\n\n\nTip\n\n\n\nGitHub Copilot es especialmente útil para estudiantes de ciencia de datos ya que puede generar código Python, R, SQL y otros lenguajes comúnmente usados en análisis de datos.\n\n\n\n\n1.2.2 GitHub Codespaces\n\nEntornos de desarrollo en la nube completamente configurados\nCaracterísticas:\n\nConfiguración instantánea para proyectos de ciencia de datos\nIntegración completa con GitHub\nColaboración en tiempo real\nPreinstalación de herramientas comunes de data science\n\n\n\n\n1.2.3 Herramientas especializadas para ciencia de datos\n\nDataCamp: Plataforma de aprendizaje para ciencia de datos\nDeepnote: Notebooks colaborativos para análisis de datos\nSQLGate: Herramienta avanzada para bases de datos\n\n\n\n\n\n\n\nNota\n\n\n\nPara ver todas las herramientas disponibles: Consulta el GitHub Student Developer Pack completo para descubrir todas las herramientas incluidas."
+  },
+  {
+    "objectID": "student_resources.html#jetbrains-student-license",
+    "href": "student_resources.html#jetbrains-student-license",
+    "title": "Recursos gratuitos para estudiantes",
+    "section": "2 JetBrains Student License",
+    "text": "2 JetBrains Student License\nJetBrains ofrece licencias gratuitas para estudiantes de todas sus herramientas de desarrollo a través del JetBrains Student License Program.\n\n2.1 Cómo obtenerla\n\nRegístrate en el portal de JetBrains Education\nVerifica tu condición de estudiante con tu email académico o credencial\nUna vez aprobado, descarga cualquier IDE de JetBrains de forma gratuita\n\n\n\n2.2 IDEs incluidos\n\n2.2.1 PyCharm Professional\n\nIDE especializado para Python con características avanzadas\nCaracterísticas destacadas:\n\nAnálisis de código avanzado\nSoporte completo para ciencia de datos (pandas, numpy, matplotlib, etc.)\nIntegración con Jupyter Notebooks\nHerramientas de testing integradas\nControl de versiones integrado\n\n\n\n\n\n\n\n\nNota\n\n\n\nPyCharm Professional es especialmente valioso para estudiantes de ciencia de datos debido a su excelente soporte para bibliotecas de análisis de datos y machine learning.\n\n\n\n\n2.2.2 DataGrip\n\nIDE especializado para bases de datos\nSoporte para:\n\nMySQL, PostgreSQL, MongoDB, Redis\nSQLite, Oracle, SQL Server\nCompletado inteligente de SQL\nAnálisis de esquemas de datos\nRefactorización de SQL\nNavegación inteligente entre tablas y procedimientos\n\n\n\n\n\n\n\n\nTip\n\n\n\nDataGrip es esencial para estudiantes de ciencia de datos que trabajan con múltiples bases de datos y necesitan herramientas avanzadas de análisis y manipulación de datos.\n\n\n\n\n2.2.3 DataSpell\n\nIDE especializado para ciencia de datos y análisis\nCaracterísticas específicas:\n\nSoporte nativo para Jupyter Notebooks\nIntegración completa con bibliotecas de ciencia de datos\nVisualización interactiva de datos\nHerramientas de machine learning integradas\nSoporte para R y Python en el mismo entorno\n\n\n\n\n\n\n\n\nImportante\n\n\n\nDataSpell está diseñado específicamente para científicos de datos y ofrece una experiencia optimizada para el análisis exploratorio y la creación de modelos de machine learning.\n\n\n\n\n\n\n\n\nTip\n\n\n\nCombinación recomendada para ciencia de datos: - Usa PyCharm para desarrollo de código Python y machine learning - Emplea DataSpell para análisis interactivo y notebooks - Utiliza DataGrip para gestión y consulta de bases de datos\n\n\n\n\n2.2.4 Otros IDEs disponibles\n\nIntelliJ IDEA Ultimate: Para desarrollo Java y aplicaciones enterprise\nWebStorm: Para desarrollo web moderno\nCLion: Para desarrollo en C/C++"
+  },
+  {
+    "objectID": "student_resources.html#microsoft-azure-for-students",
+    "href": "student_resources.html#microsoft-azure-for-students",
+    "title": "Recursos gratuitos para estudiantes",
+    "section": "3 Microsoft Azure for Students",
+    "text": "3 Microsoft Azure for Students\nMicrosoft Azure ofrece créditos gratuitos para estudiantes a través del programa Azure for Students.\n\n3.1 Beneficios\n\nCrédito de $100 USD para usar en servicios Azure\nAcceso gratuito a más de 25 servicios populares\nSin necesidad de tarjeta de crédito para empezar\n\n\n\n3.2 Servicios destacados para ciencia de datos\n\nAzure Machine Learning: Plataforma para ML\nAzure Databricks: Para big data analytics\nAzure Cognitive Services: APIs de IA\nAzure SQL Database: Base de datos gestionada\nAzure Storage: Almacenamiento en la nube"
+  },
+  {
+    "objectID": "student_resources.html#google-cloud-for-students",
+    "href": "student_resources.html#google-cloud-for-students",
+    "title": "Recursos gratuitos para estudiantes",
+    "section": "4 Google Cloud for Students",
+    "text": "4 Google Cloud for Students\nGoogle Cloud ofrece el Google Cloud Education Program con créditos gratuitos para estudiantes.\n\n4.1 Beneficios\n\nCréditos gratuitos para usar en Google Cloud Platform\nAcceso a todos los servicios de GCP\nSoporte técnico gratuito\n\n\n\n4.2 Servicios útiles\n\nGoogle Colab: Notebooks Jupyter gratuitos con GPUs\nBigQuery: Análisis de big data\nCloud Storage: Almacenamiento en la nube\nAI Platform: Machine Learning\nCloud Functions: Serverless computing"
+  },
+  {
+    "objectID": "student_resources.html#oreilly-learning-platform",
+    "href": "student_resources.html#oreilly-learning-platform",
+    "title": "Recursos gratuitos para estudiantes",
+    "section": "5 O’Reilly Learning Platform",
+    "text": "5 O’Reilly Learning Platform\nO’Reilly ofrece una de las plataformas de aprendizaje más completas para tecnología y programación a través de su O’Reilly for Higher Education y servicios de biblioteca académica.\n\n5.1 Acceso a través de instituciones\nMuchos universidades y centros educativos tienen acceso gratuito a la plataforma O’Reilly para sus estudiantes y profesores. Consulta con tu biblioteca universitaria si tienes acceso institucional.\n\n\n\n\n\n\nTip\n\n\n\nEjemplo en España: La Universitat Politècnica de València (UPV) ofrece acceso completo a O’Reilly for Higher Education para sus estudiantes y faculty.\n\n\n\n\n5.2 Recursos disponibles\n\n5.2.1 Biblioteca digital completa\n\nMás de 40,000 libros electrónicos sobre tecnología y programación\nVideos de capacitación con expertos de la industria\nRutas de aprendizaje estructuradas por temas y niveles\nConferencias y eventos virtuales en directo y bajo demanda\n\n\n\n5.2.2 Contenido especializado para ciencia de datos\n\nLibros sobre Python, R, machine learning\nTutoriales de pandas, numpy, scikit-learn\nCursos de SQL y bases de datos\nContenido sobre big data y analytics\nCertificaciones y exámenes de práctica\n\n\n\n\n5.3 Cómo acceder\n\nVerifica con tu institución: Consulta con tu biblioteca universitaria si tienen suscripción\nAcceso directo: Si tu universidad tiene convenio, usa tu email académico (.edu, .ac.es, etc.)\nPrueba gratuita: O’Reilly ofrece pruebas gratuitas para instituciones\n\n\n\n\n\n\n\nNota\n\n\n\nPara estudiantes españoles: Muchas universidades españolas tienen acuerdos con O’Reilly. Consulta con tu biblioteca o departamento de informática para obtener acceso gratuito."
+  },
+  {
+    "objectID": "student_resources.html#consejos-para-aprovechar-estos-recursos",
+    "href": "student_resources.html#consejos-para-aprovechar-estos-recursos",
+    "title": "Recursos gratuitos para estudiantes",
+    "section": "6 Consejos para aprovechar estos recursos",
+    "text": "6 Consejos para aprovechar estos recursos\n\n\n\n\n\n\nTip\n\n\n\nEmpieza por lo esencial: Prioriza las herramientas que usarás inmediatamente en tus proyectos y estudios. No necesitas instalar todo de una vez.\n\n\n\n\n\n\n\n\nImportante\n\n\n\nMantén tus licencias actualizadas: La mayoría de estos programas requieren verificar anualmente tu condición de estudiante. Marca en tu calendario las fechas de renovación.\n\n\n\n\n\n\n\n\nNota\n\n\n\nCombina herramientas: Muchas de estas herramientas funcionan mejor juntas. Por ejemplo, usa GitHub Copilot en VSCode con una licencia de estudiante de JetBrains.\n\n\n\n\n\n\n\n\nAdvertencia\n\n\n\nUsa responsablemente: Estos recursos están destinados para fines educativos. Revisa los términos de uso de cada plataforma para asegurarte de cumplir con sus políticas."
+  },
+  {
+    "objectID": "student_resources.html#recursos-educativos-adicionales",
+    "href": "student_resources.html#recursos-educativos-adicionales",
+    "title": "Recursos gratuitos para estudiantes",
+    "section": "7 Recursos educativos adicionales",
+    "text": "7 Recursos educativos adicionales\n\n7.1 Plataformas de aprendizaje\n\nfreeCodeCamp: Cursos gratuitos de programación web\nCoursera for Campus: Acceso gratuito a cursos para estudiantes\nedX for Business: Cursos gratuitos de universidades top\nKhan Academy: Cursos gratuitos de matemáticas y programación\n\n\n\n7.2 Herramientas de desarrollo\n\nVisual Studio Code: Editor de código gratuito y extensible\nGit: Sistema de control de versiones gratuito\nPython: Lenguaje de programación gratuito\nR: Lenguaje estadístico gratuito\nAnaconda: Distribución Python/R gratuita para ciencia de datos\n\n\n\n7.3 Recursos específicos para ciencia de datos\n\nKaggle Learn: Cursos gratuitos de machine learning\nDataCamp Community: Recursos gratuitos para ciencia de datos\nTowards Data Science: Artículos y tutoriales gratuitos\nPapers with Code: Papers académicos con código implementado\n\n\n\n7.4 Comunidades de aprendizaje y soporte\nÚnete a comunidades de estudiantes y desarrolladores para compartir recursos y obtener ayuda:\n\nDev.to: Comunidad de desarrolladores\nStack Overflow: Preguntas y respuestas de programación\nReddit r/learnprogramming: Comunidad de aprendizaje\nReddit r/datascience: Comunidad de ciencia de datos\nGitHub Community: Foro oficial de GitHub\n\n\n\n\n\n\n\nTip\n\n\n\nContribuye a la comunidad: Una vez que domines estas herramientas, considera contribuir a proyectos open source o ayudar a otros estudiantes en foros y comunidades."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sigma Data Club - Documentación",
+    "section": "",
+    "text": "Bienvenido a la documentación del Sigma Data Club, tu fuente de recursos gratuitos para impulsar tu carrera en ciencia de datos y programación."
+  },
+  {
+    "objectID": "index.html#recursos-gratuitos-para-estudiantes-de-ciencia-de-datos",
+    "href": "index.html#recursos-gratuitos-para-estudiantes-de-ciencia-de-datos",
+    "title": "Sigma Data Club - Documentación",
+    "section": "",
+    "text": "Bienvenido a la documentación del Sigma Data Club, tu fuente de recursos gratuitos para impulsar tu carrera en ciencia de datos y programación."
+  },
+  {
+    "objectID": "index.html#documentación-disponible",
+    "href": "index.html#documentación-disponible",
+    "title": "Sigma Data Club - Documentación",
+    "section": "📚 Documentación Disponible",
+    "text": "📚 Documentación Disponible\n\n\n\n🔧\n\n\nGuía de Instalación\nConfiguración de entorno de desarrollo\nGuía completa paso a paso para instalar y configurar todas las herramientas necesarias para proyectos de ciencia de datos.\nIncluye: - Git y GitHub - UV (gestor de paquetes Python) - Visual Studio Code - Configuración de entornos virtuales\n📖 Ver Guía de Instalación\n\n\n\n\n🎓\n\n\nRecursos para Estudiantes\nHerramientas gratuitas para estudiantes\nRecopilación completa de recursos gratuitos disponibles para estudiantes de programación y ciencia de datos.\nIncluye: - GitHub Student Developer Pack - Licencias educativas de JetBrains - Plataformas de aprendizaje - Recursos en la nube gratuitos\n📖 Ver Recursos para Estudiantes"
+  },
+  {
+    "objectID": "index.html#lo-más-destacado",
+    "href": "index.html#lo-más-destacado",
+    "title": "Sigma Data Club - Documentación",
+    "section": "⭐ Lo Más Destacado",
+    "text": "⭐ Lo Más Destacado\n\nRecursos Destacados para Ciencia de Datos\n\n\n🔬 PyCharm Professional\nIDE especializado para Python con soporte completo para ciencia de datos\n\n\n🤖 GitHub Copilot\nAsistente de programación con IA para autocompletado inteligente\n\n\n📊 DataSpell\nIDE específico para análisis de datos y machine learning\n\n\n🗄️ DataGrip\nHerramienta avanzada para gestión de bases de datos\n\n\n📚 O’Reilly Platform\nMás de 40,000 libros y videos sobre tecnología\n\n\n☁️ Azure for Students\nCréditos gratuitos de $100 USD en Microsoft Azure"
+  },
+  {
+    "objectID": "index.html#empieza-aquí",
+    "href": "index.html#empieza-aquí",
+    "title": "Sigma Data Club - Documentación",
+    "section": "🚀 Empieza Aquí",
+    "text": "🚀 Empieza Aquí\n\n¿Listo para comenzar?\nExplora nuestras guías detalladas y descubre todos los recursos gratuitos disponibles para impulsar tu carrera en ciencia de datos.\n¡Todo lo que necesitas es completamente gratuito para estudiantes!\n🎯 Ver Todos los Recursos"
+  },
+  {
+    "objectID": "index.html#navegación",
+    "href": "index.html#navegación",
+    "title": "Sigma Data Club - Documentación",
+    "section": "📖 Navegación",
+    "text": "📖 Navegación\n\nGuía de Instalación - Configura tu entorno de desarrollo\nRecursos para Estudiantes - Herramientas y servicios gratuitos\nSigma Data Club - Nuestro club en GitHub\n\n\n\n\n\n\n\n\nTip\n\n\n\n¿Nuevo en ciencia de datos? Empieza con la Guía de Instalación para configurar tu entorno, luego explora los Recursos para Estudiantes para acceder a herramientas profesionales gratuitas."
+  },
+  {
+    "objectID": "installation_guide.html",
+    "href": "installation_guide.html",
+    "title": "Guía de instalación",
+    "section": "",
+    "text": "Importante\n\n\n\nEsta guía está diseñada para ayudarte a configurar tu entorno de desarrollo para trabajar en proyectos de ciencia de datos. En ningún caso esta guía sustituye a la documentación oficial de las herramientas que aquí se mencionan. Te animamos a leer, ojear, cotillear, revisar o investigar (llámalo como quieras) la documentación oficial de cada herramienta. Estas, no son ni las únicas ni las mejores para todos los casos (pero son las que nosotros usamos y recomendamos). Por ello, te animamos a explorar otras opciones y a elegir las que mejor se adapten a tus necesidades y preferencias."
+  },
+  {
+    "objectID": "installation_guide.html#git",
+    "href": "installation_guide.html#git",
+    "title": "Guía de instalación",
+    "section": "1 Git",
+    "text": "1 Git\nGit es un sistema de control de versiones distribuido que nos permitirá gestionar y rastrear los cambios en nuestro código fuente a lo largo del tiempo. Es una herramienta esencial para el desarrollo colaborativo.\n\nWindowsmacOSLinux\n\n\nDescarga el instalador de Git para Windows e instálalo.\nPodrás instalarlo con las opciones por defecto (haciendo click en Next/Siguiente hasta que finalice la instalación).\nUna vez instalado, abre una terminal (cmd, PowerShell o Git Bash) y ejecuta:\ngit --version\nDeberías ver algo como git version 2.x.x. En mi caso por ejemplo, git version 2.51.0.\n\n\n\n\n\n\nNota\n\n\n\nSi tienes Windows 10/11 y usas WSL (Windows Subsystem for Linux), puedes instalar Git dentro de tu distribución Linux (basada en Debian, es decir Ubuntu, por ejemplo).\n\n\n\n\nOpción recomendada:\nbrew install git\nUna vez instalado ejecuta:\ngit --version\nDeberías ver algo como git version 2.x.x. En mi caso por ejemplo, git version 2.51.0.\n\n\n\n\n\n\nTip\n\n\n\nSi no tienes Homebrew consulta https://brew.sh para instalarlo.\nAunque bastará con escribir el siguiente comando:\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n\n\nAlternativas:\nSi teneis instalado Xcode, Git ya viene incluido. Si no, puedes instalar las herramientas de línea de comandos de Xcode con:\nxcode-select --install\ngit --version\n\n\nAbre una terminal y usa el gestor de paquetes de tu distribución para instalar Git.\nPara distribuciones basadas en Debian/Ubuntu:\nsudo apt update\nsudo apt install git\nPara distribuciones basadas en Fedora/RHEL:\nsudo dnf install git\nPara distribuciones basadas en Arch Linux:\nsudo pacman -S git\nTras la instalación, ejecuta git --version para verificar que Git se ha instalado correctamente. Deberías ver algo como git version 2.x.x. En mi caso por ejemplo, git version 2.51.0.\n\n\n\n\n\n\nNota\n\n\n\nSi tienes WSL (Windows Subsystem for Linux), puedes instalar Git dentro de tu distribución Linux. Abre la terminal de WSL y repite los pasos anteriores según tu distribución."
+  },
+  {
+    "objectID": "installation_guide.html#github",
+    "href": "installation_guide.html#github",
+    "title": "Guía de instalación",
+    "section": "2 Github",
+    "text": "2 Github\nGithub es una plataforma de desarrollo colaborativo que utiliza Git para el control de versiones. Permite a los desarrolladores alojar y revisar código, gestionar proyectos y colaborar con otros desarrolladores en todo el mundo. Nosotros usaremos GitHub para alojar nuestros proyectos y colaborar en ellos de manera eficiente. Estos son los pasos recomendados para configurar tu cuenta y entorno de trabajo en GitHub:\n\n\n\n\n\n\nTip\n\n\n\nLa documentación oficial de Github es excelente, te animamos a cotillearla: Documentación oficial de GitHub\n\n\n\nCreación de una cuenta en GitHub: Crea una cuenta personal para comenzar a trabajar con GitHub.\nComprobar tus claves SSH existentes: Antes de generar una nueva clave SSH, debes comprobar la máquina local en busca de claves existentes.\nGeneración de una nueva clave SSH y adición al agente SSH: Una vez que has comprobado las claves SSH existentes, puedes generar una nueva clave SSH para usarla para la autenticación y luego agregarla al ssh-agent.\nAgregar una clave SSH nueva a tu cuenta de GitHub: Para configurar tu cuenta en GitHub.com a fin de utilizar tu clave SSH nueva (o existente), también necesitarás agregar la clave a tu cuenta.\n\n\n\n\n\n\nNota\n\n\n\nDebajo de los desplegables (tabs) de Windows, macOS y Linux hay otros en los que puedes elegir entre GitHub CLI o Web Browser. Opción recomendada: Web Browser.\n\n\nProbar tu conexión SSH: Después de configurar la clave SSH y agregarla a GitHub.com, puede probar la conexión.\nTrabajar con contraseñas de clave SSH (recomendado): Con las claves SSH, si alguien obtiene acceso a tu equipo, el atacante también tiene acceso a cada sistema que usa esa clave. Para agregar una capa extra de seguridad, puedes incluir una contraseña a tu clave SSH.\n\n\n\n\n\n\nImportante\n\n\n\nUna vez que hayas configurado Git y GitHub, es recomendable configurar tu información de usuario global para que tus commits estén correctamente identificados.\n\n\nConfigurar tu nombre de usuario en Git: Git utiliza un nombre de usuario para asociar las confirmaciones con una identidad. El nombre de usuario de Git no es tu mismo nombre de usuario de GitHub.\nConfigurar tu dirección de correo electrónico de confirmación: Puede establecer la dirección de correo electrónico que se usa para crear confirmaciones en GitHub y en su equipo.\n\n\n\n\n\n\nTip\n\n\n\nEnvío de solicitud a GitHub Education (recomendado): Como estudiantes nos podemos beneficiar de herramientas de desarrollo y recursos gratuitos a través del GitHub Student Developer Pack."
+  },
+  {
+    "objectID": "installation_guide.html#uv",
+    "href": "installation_guide.html#uv",
+    "title": "Guía de instalación",
+    "section": "3 UV",
+    "text": "3 UV\nUV es una herramienta de línea de comandos que facilita la gestión de entornos virtuales y dependencias para proyectos de Python. Es extremadamente rápido y ligero. Para gran parte de nuestros proyectos de ciencia de datos bastará.\n\n\n\n\n\n\nNota\n\n\n\nNota sobre anaconda/miniconda: También es apropiado para gestionar entornos virtuales y dependecias, aunque es más pesado y lento que uv. No obstante, conda puede manejar dependencias complejas que actualmente uv no puede resolver.\n\n\n\n\n\n\n\n\nTip\n\n\n\nLa documentación oficial de UV es bastante buena, te animamos a leerla: Documentación oficial de UV\n\n\nUV ofrece un instalador independiente para descargar e instalar:\n\nWindowsmacOS/Linux\n\n\nUsa irm para descargar el script y ejecútalo con iex:\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\n\n\n\n\n\n\nTip\n\n\n\nEl script de instalación puede inspeccionarse antes de usarlo (por seguridad):\npowershell -c \"irm https://astral.sh/uv/install.ps1 | more\"\n\n\n\n\n\n\n\n\nNota\n\n\n\nHay más opciones de instalación, consulta la documentación oficial.\n\n\nPara comprobar que se ha instalado correctamente, abre una nueva terminal (cmd o PowerShell) y ejecuta:\nuv --version\nDeberías ver algo como uv version 0.x.x. En mi caso por ejemplo, uv version 0.7.12, debería de actualizarlo :(\n\n\n\n\n\n\nNota\n\n\n\nSi tienes Windows 10/11 y usas WSL (Windows Subsystem for Linux), puedes instalar uv dentro de tu distribución Linux (basada en Debian, es decir Ubuntu, por ejemplo).\n\n\n\n\nUsa curl para descargar el script y ejecutarlo con sh:\ncurl -LsSf https://astral.sh/uv/install.sh | sh\nSi tu sistema no tiene curl, puedes usar wget:\nwget -qO- https://astral.sh/uv/install.sh | sh\n\n\n\n\n\n\nTip\n\n\n\nEl script de instalación puede inspeccionarse antes de usarlo (por seguridad):\ncurl -LsSf https://astral.sh/uv/install.sh | less\n\n\n\n\n\n\n\n\nNota\n\n\n\nHay más opciones de instalación, consulta la documentación oficial.\n\n\nPara comprobar que se ha instalado correctamente, abre una nueva terminal y ejecuta:\nuv --version\nDeberías ver algo como uv version 0.x.x. En mi caso por ejemplo, uv version 0.7.12, debería de actualizarlo :("
+  },
+  {
+    "objectID": "installation_guide.html#visual-studio-code-vscode",
+    "href": "installation_guide.html#visual-studio-code-vscode",
+    "title": "Guía de instalación",
+    "section": "4 Visual Studio Code (VSCode)",
+    "text": "4 Visual Studio Code (VSCode)\nVisual Studio Code es un editor de código desarrolado por Microsoft, gratuito y de código abierto. Es muy popular entre los desarrolladores por su versatilidad, facilidad de uso y amplia gama de extensiones que permiten personalizar el entorno de desarrollo según las necesidades del usuario.\n\n\n\n\n\n\nNota\n\n\n\nAunque recomendemos Visual Studio Code, puedes usar cualquier editor de texto o IDE (Entorno de Desarrollo Integrado) que desees. Te animamos a explorar otras opciones como PyCharm (los estudiantes no necesitan pagar la suscripción), Sublime Text, Spyder, Zed, Neovim o alguno de los forks de VSCode como Windsurf o Cursor.\n\n\n\nDescarga e instala Visual Studio Code. Elige el instalador adecuado para tu sistema operativo (Windows, macOS o Linux).\nAbre Visual Studio Code y ve a la pestaña de extensiones (icono de cuadrado en la barra lateral izquierda).\nInstala la extensión de python buscando “Python” en la barra de búsqueda y seleccionando la extensión oficial de Microsoft. Haz clic en Instalar.\nRecomendado: Instala la extensión de Github Copilot buscando “GitHub Copilot” en la barra de búsqueda y seleccionando la extensión oficial de GitHub. Haz clic en Instalar.\n\n\n\n\n\n\nNota\n\n\n\nEstas son únicamente algunas extensiones recomendadas. Puedes explorar e instalar otras extensiones según tus necesidades y preferencias.\n\n\n\n\n\n\n\n\nPrecaución\n\n\n\nAntes de instalar cualquier extensión comprueba que es la oficial (desarrollada por Microsoft, GitHub u otra fuente confiable) o que el autor parece fiable. Si ves dos extensiones con el mismo nombre, revísalas bien, una puede contener código malicioso."
+  },
+  {
+    "objectID": "installation_guide.html#recursos-para-aprender",
+    "href": "installation_guide.html#recursos-para-aprender",
+    "title": "Guía de instalación",
+    "section": "5 Recursos para aprender",
+    "text": "5 Recursos para aprender\n\n\n\n\n\n\nImportante\n\n\n\nA continuación, se presentan algunos recursos recomendados para aprender a usar las herramientas mencionadas en esta guía. Insistimos en que la documentación oficial de cada herramienta es la mejor fuente de información y te animamos a consultarla regularmente. No obstante, en internet hay muchos y buenos recursos que pueden ayudarte a aprender. Importantísimo: NO sirve de nada ver un tutorial de 5 horas o leer un libro de 500 páginas si no incorporas en tu flujo de trabajo diario estas herramientas. Se aprende por el camino, NO puedes saberlo todo antes de empezar.\n\n\n\nCitamos recursos"
+  }
+]
