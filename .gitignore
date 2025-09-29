@@ -1,1 +1,2 @@
-installation_guide.html
+/.quarto/
+**/*.quarto_ipynb
