@@ -1,0 +1,270 @@
+---
+title: "Sigma Data Club - Documentación"
+subtitle: "Recursos para estudiantes de ciencia de datos"
+author: "Sigma Data Club"
+date: "2025-09-29"
+format:
+  html:
+    toc: false
+    theme: cosmo
+    code-copy: true
+    df-print: default
+    self-contained: true
+lang: es
+---
+
+::: {.hero-section}
+::: {.hero-content}
+# 🚀 **Sigma Data Club**
+
+## Recursos gratuitos para estudiantes de ciencia de datos
+
+Bienvenido a la documentación del **Sigma Data Club**, tu fuente de recursos gratuitos para impulsar tu carrera en ciencia de datos y programación.
+
+:::
+:::
+
+<style>
+.hero-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.hero-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.resource-card {
+  background: white;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid #f8f9fa;
+}
+
+.resource-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  border-color: #5389dfff;
+}
+
+.resource-card-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #5389dfff;
+}
+
+.resource-card h3 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.resource-card p {
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.resource-link {
+  display: inline-block;
+  background: #5389dfff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.resource-link:hover {
+  background: #3d6bb3;
+  color: white;
+  text-decoration: none;
+}
+
+.featured-section {
+  background: #f8f9fa;
+  padding: 3rem 2rem;
+  margin: 2rem 0;
+  border-radius: 10px;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.featured-item {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  border-left: 4px solid #5389dfff;
+}
+
+.featured-item strong {
+  color: #5389dfff;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.cta-section {
+  background: linear-gradient(135deg, #5389dfff 0%, #3d6bb3 100%);
+  color: white;
+  padding: 3rem 2rem;
+  border-radius: 10px;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.cta-section h2 {
+  margin-bottom: 1rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background: white;
+  color: #5389dfff;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  color: #3d6bb3;
+  text-decoration: none;
+}
+</style>
+
+## 📚 **Documentación Disponible**
+
+::: {.resource-grid}
+::: {.resource-card}
+::: {.resource-card-icon}
+🔧
+:::
+
+### Guía de Instalación
+
+**Configuración de entorno de desarrollo**
+
+Guía completa paso a paso para instalar y configurar todas las herramientas necesarias para proyectos de ciencia de datos.
+
+**Incluye:**
+- Git y GitHub
+- UV (gestor de paquetes Python)
+- Visual Studio Code
+- Configuración de entornos virtuales
+
+[📖 Ver Guía de Instalación](installation_guide.qmd)
+:::
+
+::: {.resource-card}
+::: {.resource-card-icon}
+🎓
+:::
+
+### Recursos para Estudiantes
+
+**Herramientas gratuitas para estudiantes**
+
+Recopilación completa de recursos gratuitos disponibles para estudiantes de programación y ciencia de datos.
+
+**Incluye:**
+- GitHub Student Developer Pack
+- Licencias educativas de JetBrains
+- Plataformas de aprendizaje
+- Recursos en la nube gratuitos
+
+[📖 Ver Recursos para Estudiantes](student_resources.qmd)
+:::
+:::
+
+## ⭐ **Lo Más Destacado**
+
+::: {.featured-section}
+### Recursos Destacados para Ciencia de Datos
+
+::: {.featured-grid}
+::: {.featured-item}
+**🔬 PyCharm Professional**  
+IDE especializado para Python con soporte completo para ciencia de datos
+:::
+
+::: {.featured-item}
+**🤖 GitHub Copilot**  
+Asistente de programación con IA para autocompletado inteligente
+:::
+
+::: {.featured-item}
+**📊 DataSpell**  
+IDE específico para análisis de datos y machine learning
+:::
+
+::: {.featured-item}
+**🗄️ DataGrip**  
+Herramienta avanzada para gestión de bases de datos
+:::
+
+::: {.featured-item}
+**📚 O'Reilly Platform**  
+Más de 40,000 libros y videos sobre tecnología
+:::
+
+::: {.featured-item}
+**☁️ Azure for Students**  
+Créditos gratuitos de $100 USD en Microsoft Azure
+:::
+:::
+:::
+
+## 🚀 **Empieza Aquí**
+
+::: {.cta-section}
+### ¿Listo para comenzar?
+
+Explora nuestras guías detalladas y descubre todos los recursos gratuitos disponibles para impulsar tu carrera en ciencia de datos.
+
+**¡Todo lo que necesitas es completamente gratuito para estudiantes!**
+
+[🎯 Ver Todos los Recursos](student_resources.qmd)
+:::
+
+## 📖 **Navegación**
+
+- **[Guía de Instalación](installation_guide.qmd)** - Configura tu entorno de desarrollo
+- **[Recursos para Estudiantes](student_resources.qmd)** - Herramientas y servicios gratuitos
+- **[Sigma Data Club](https://github.com/sigma-dc)** - Nuestro club en GitHub
+
+---
+
+::: {.callout-tip}
+**¿Nuevo en ciencia de datos?** Empieza con la [Guía de Instalación](installation_guide.qmd) para configurar tu entorno, luego explora los [Recursos para Estudiantes](student_resources.qmd) para acceder a herramientas profesionales gratuitas.
+:::
